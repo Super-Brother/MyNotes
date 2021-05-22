@@ -38,3 +38,14 @@ adb push **/** **/**
 adb -s 设备id push **/** **/**
 ```
 
+
+
+###### 启动应用
+
+```
+adb shell
+am start -n ｛包(package)名｝/｛包名｝.{活动(activity)名称}
+am start -a android.intent.action.VIEW -d  http://www.google.cn/
+am start -a android.intent.action.CALL -d tel:10086
+```
+
