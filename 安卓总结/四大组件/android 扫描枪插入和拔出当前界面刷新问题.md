@@ -7,3 +7,4 @@
 ```
 android:configChanges=“orientation|keyboard|keyboardHidden”
 ```
+
