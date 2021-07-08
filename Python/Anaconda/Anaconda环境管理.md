@@ -23,6 +23,10 @@ conda create -n py3 python=3.5 numpy pandas
 source activate py3
 # 再次使用下面这个
 conda activate py3
+# 退出环境
+source deactivate py3
+# 退出环境
+conda deactivate py3
 ```
 
 py3为环境名，上述表示激活py3
