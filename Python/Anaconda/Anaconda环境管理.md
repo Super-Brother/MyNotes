@@ -19,7 +19,10 @@ conda create -n py3 python=3.5 numpy pandas
 ### 在 OSX/Linux 上
 
 ```
+# 首次使用这个
 source activate py3
+# 再次使用下面这个
+conda activate py3
 ```
 
 py3为环境名，上述表示激活py3
